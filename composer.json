@@ -1,10 +1,20 @@
 {
     "name": "olada/mybbintegrator",
     "description": "PHP Class which offers MyBB functionality for own use (integration into website).",
+    "keywords": ["integrator", "mybb", "connecter"],
+    "homepage": "https://github.com/aa6my/MyBBIntegrator",
+    "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
-    "psr-4": {
-        "MyBBIntegrator\\": "src/MyBBIntegrator"
+        "psr-4": {
+            "MyBBIntegrator\\": "src/MyBBIntegrator"
+        }
     },
+    "authors": [
+        {
+            "name": "aa6my",
+            "email": "aa6my@qq.com"
+        }
+    ],
     "require": {}
 }
